@@ -40,7 +40,7 @@ This enables classification of images between the ``A`` and ``B`` data sets.
 Go to the project directory and run:
 
 ```
-$  
+$ bash run.sh  
 ```
 
 This script installs the ``Inception`` model and initiates the re-training process for the specified image data sets.
