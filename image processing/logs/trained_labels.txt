@@ -1,0 +1,7 @@
+space
+del
+nothing
+d
+c
+b
+a
