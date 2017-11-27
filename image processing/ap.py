@@ -10,7 +10,12 @@ count = 0
 # app.config[ 'SECRET_KEY' ] = 'jsbcfsbfjefebw237u3gdbdc'
 # socketio = SocketIO( app )
 
+
 @app.route('/')
+def catalogue():
+    return render_template('catalogue.html')
+
+@app.route('/detect')
 def index():
     return render_template('index.html',var=var)
 
